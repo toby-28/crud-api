@@ -1,15 +1,9 @@
 export default {
-  preset: "ts-jest/presets/default-esm",
+  preset: "ts-jest",
   testEnvironment: "node",
-  extensionsToTreatAsEsm: [".ts"],
   globals: {
     "ts-jest": {
-      useESM: true,
-      tsconfig: "./tsconfig.test.json",
+      tsconfig: "./tsconfig.jest.json",
     },
   },
-  moduleNameMapper: {
-    "^(\\.{1,2}/.*)\\.js$": "$1",
-  },
-  transformIgnorePatterns: ["/node_modules/(?!uuid)/"],
 };

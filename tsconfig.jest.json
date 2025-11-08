@@ -2,9 +2,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "noEmit": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "allowImportingTsExtensions": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "types": ["jest", "node"],
     "verbatimModuleSyntax": false
   },

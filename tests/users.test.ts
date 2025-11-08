@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app } from "../src/app.ts"; // adjust path if needed
+import { app } from "../src/app"; // adjust path if needed
 
 describe("CRUD API /api/users", () => {
   let userId: string;
