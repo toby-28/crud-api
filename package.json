@@ -9,7 +9,8 @@
     "test:watch": "jest --watch",
     "build": "tsc",
     "start:dev": "npm run build && nodemon dist/app.js",
-    "start:prod": "node dist/app.js"
+    "start:prod": "node dist/app.js",
+    "start:multi": "tsc && node dist/multi.js"
   },
   "keywords": [],
   "author": "Hushnudbek RAHIMOW",
