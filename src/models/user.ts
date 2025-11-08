@@ -1,6 +1,6 @@
 export interface User {
-  id: string;
-  username: string;
-  age: number;
-  hobbies: string[];
+  id: string;           // UUID generated on server
+  username: string;     // Required
+  age: number;          // Required
+  hobbies: string[];    // Required (can be empty)
 }
